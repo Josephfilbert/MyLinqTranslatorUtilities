@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLinqTranslatorUtilities", "MyLinqTranslatorUtilities\MyLinqTranslatorUtilities.csproj", "{F28B2A13-D431-461A-80FC-0392347C41EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLinqTranslatorUtilities.Tests", "MyLinqTranslatorUtilities.Tests\MyLinqTranslatorUtilities.Tests.csproj", "{68F6DCD9-5AEE-46AE-AF75-F01DD3D2877E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F28B2A13-D431-461A-80FC-0392347C41EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F28B2A13-D431-461A-80FC-0392347C41EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F28B2A13-D431-461A-80FC-0392347C41EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F6DCD9-5AEE-46AE-AF75-F01DD3D2877E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F6DCD9-5AEE-46AE-AF75-F01DD3D2877E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F6DCD9-5AEE-46AE-AF75-F01DD3D2877E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F6DCD9-5AEE-46AE-AF75-F01DD3D2877E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
