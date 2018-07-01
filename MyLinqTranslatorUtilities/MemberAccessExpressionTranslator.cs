@@ -31,9 +31,6 @@ namespace MyLinqTranslatorUtilities
 
         protected override Expression VisitMember(MemberExpression node)
         {
-            if(node.NodeType != ExpressionType.MemberAccess)
-                throw new ArgumentException("Only member access expression allowed", nameof(node));
-
             _members.Push(node.Member.Name);
             Visit(node.Expression);
             return node;
