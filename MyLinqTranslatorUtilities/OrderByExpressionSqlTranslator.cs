@@ -41,7 +41,7 @@ namespace MyLinqTranslatorUtilities
                 var current = _sortQueue.Dequeue();
                 resultBuilder.Append($"{current.Key} {GetSqlOrderDirectionFromEnum(current.Value)}");
 
-                resultBuilder.AppendLine(_sortQueue.Count > 0 ? ", " : string.Empty);
+                resultBuilder.AppendLine(_sortQueue.Count > 0 ? "," : string.Empty);
             }
 
             return resultBuilder.ToString();
